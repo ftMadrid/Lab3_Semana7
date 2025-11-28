@@ -14,6 +14,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Lab3_Semana7
   main.cpp
+
+
 )
 target_link_libraries(Lab3_Semana7 Qt${QT_VERSION_MAJOR}::Core)
 
